@@ -2929,6 +2929,7 @@ h1.collectionTitle {
 .collection-header {
     display: inline-block;
     width: 100%;
+    margin-bottom: 12px;
 }
 .product-button a {
     background: #000;
