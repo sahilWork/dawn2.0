@@ -52,6 +52,7 @@ $(document).ready(function(){
             $('.priceVlaue').html((price/100).toFixed(2));
             $('.loaderEffect').addClass('hide');
             $('body').addClass('popOpen');
+            $('.proAddPop').removeClass('hide');
           }
         });
       }
