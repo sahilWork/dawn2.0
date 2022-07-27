@@ -2941,6 +2941,10 @@ details-disclosure > details {
 .slick-next{
   right: 15px;
 }
+.product-title {
+    font-weight: 600;
+    color: #000;
+}
 .slick-prev{
   left: 15px;
 }
