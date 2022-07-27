@@ -31,7 +31,7 @@ $(document).ready(function(){
       url: '/cart/add.js',
       data: {
         quantity: 1,
-        id: proId
+        id: id
       },
       dataType: 'json',           
       success: function(data) {
