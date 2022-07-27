@@ -2938,8 +2938,8 @@ details-disclosure > details {
 .slick-next, .slick-prev{
   z-index: 5;
 }
-.slick-next{
-  right: 15px;
+.slick-next {
+    right: 2px;
 }
 button.slick-prev.slick-arrow:before {
     background: url(https://cdn.shopify.com/s/files/1/0614/4789/7238/t/2/assets/left_arrow.png?v=1658922702) no-repeat;
