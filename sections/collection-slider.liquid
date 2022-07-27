@@ -1,12 +1,43 @@
+<div class="collectionSection">
+  <h1 class="collectionTitle">{{ section.settings.sectionTitle }}</h1>
+  <div class="collectionList">
+    {% assign col = collections[section.settings.collection].products %}
+    {% for colPro in col %}
+      <div class="collection-product">
+        <div class="collection-image">
+          <img src="{{ colPro.images[0] | img_url: '300X300'}}" />
+        </div>
+        <div class="collection-content">
+          <div class="product-title">{{ colPro.title }}</div>
+          <div class="product-title">{{ colPro.price | money }}</div>
+          <div class="product-button">
+            <a href="javascript:void(0)" class="btnPro" varid="{{ colPro.variants.first.id }}">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</div>
 {% schema %}
   {
-    "name": "Section name",
-    "settings": []
+    "name": "Collection Slider",
+    "settings": [
+      {
+        "type": "text",
+        "id": "sectionTitle",
+        "label": "Title"
+      },
+      {
+        "type": "collection",
+        "id": "collection",
+        "label": "Collection"
+      }
+    ],
+  "presets": [
+    {
+      "name": "Collection Slider",
+      "category": "collection"
+    }
+  ]
   }
 {% endschema %}
-
-{% stylesheet %}
-{% endstylesheet %}
-
-{% javascript %}
-{% endjavascript %}
