@@ -1,7 +1,10 @@
+{% assign col = collections[section.settings.collection].products %}
 <div class="collectionSection">
+  <div class="collection-header">
   <h1 class="collectionTitle">{{ section.settings.sectionTitle }}</h1>
+    <a href="{{ col.url }}" class="btnAll">View All</a>
+  </div>
   <div class="collectionList">
-    {% assign col = collections[section.settings.collection].products %}
     {% for colPro in col %}
       <div class="collection-product">
         <div class="collection-image">
