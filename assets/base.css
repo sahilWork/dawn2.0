@@ -3031,7 +3031,8 @@ button.slick-next.slick-arrow:before {
 
 /*** loader & popup css start  ***/
 .popOpen {
-	overflow: hidden
+	overflow: hidden;
+	    background: rgba(1, 1, 1, 0.8);
 }
 .popOpen .loaderEffect,
 .proAddPop {
@@ -3039,7 +3040,6 @@ button.slick-next.slick-arrow:before {
     height: 100%;
     position: fixed;
     z-index: 999999;
-    background: rgba(1, 1, 1, 0.8);
     top: 0;
     text-align: center;
     justify-content: center;
