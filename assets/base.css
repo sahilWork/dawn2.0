@@ -2946,10 +2946,11 @@ h1.collectionTitle {
 a.btnAll {
     float: right;
     margin-top: 10px;
+    color: black;
     text-decoration: none;
     text-transform: uppercase;
     border: 2px solid #000;
-    padding: 7px 10px 10px 10px;
+    padding: 7px 10px 10px;
     font-size: 16px;
     font-weight: 500;
     line-height: 16px;
