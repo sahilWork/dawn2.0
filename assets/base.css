@@ -3018,7 +3018,7 @@ button.slick-next.slick-arrow:before {
     padding: 10px;
 }
 .hide {
-  display: none;
+    display: none !important;
 }
 .loaderEffect {
     position: absolute;
