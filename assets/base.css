@@ -2921,7 +2921,9 @@ details-disclosure > details {
     justify-content: center;
     flex-direction: column;
 }
-
+h1.collectionTitle {
+    margin-left: -10px;
+}
 .product-button a {
     background: #000;
     width: 100%;
