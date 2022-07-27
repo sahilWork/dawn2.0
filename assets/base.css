@@ -2901,7 +2901,6 @@ details-disclosure > details {
 }
 .slick-initialized .slick-slide {
     color: #000;
-    height: 200px;
     margin: 0 15px 0 0;
     display: flex;
     align-items: center;
