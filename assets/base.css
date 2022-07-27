@@ -3099,8 +3099,8 @@ button.slick-next.slick-arrow:before {
 	background: #BD9D50;
 }
 .buttonPopSection a:hover {
-	background: #222;
+	background: #BD9D50;
 }
 .buttonPopSection .cartBtn:hover {
-	background: #BD9D50;
+	background: #222;
 }
