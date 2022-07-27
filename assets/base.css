@@ -3063,9 +3063,15 @@ button.slick-next.slick-arrow:before {
 .proContentPop {
     width: 100%;
     background: #fff;
-    max-width: 500px;
+    max-width: 550px;
     border-top: 5px #000 solid;
-	padding: 20px 20px 20px 20px;
+    padding: 20px 10px 10px 10px;
+    float: left;
+}
+.proPopSection {
+    width: 100%;
+    float: left;
+    margin-bottom: 10px;
 }
 .proPopSection .proPopImage {
     width: 20%;
@@ -3075,6 +3081,14 @@ button.slick-next.slick-arrow:before {
     width: 80%;
     float: left;
     text-align: left;
+	padding-left: 20px;
+}
+.proPopSection .proPopTitle {
+    font-weight: 600;
+    color: #000;
+    font-size: 20px;
+    letter-spacing: 0;
+	    line-height: 26px;
 }
 .proPopSection .proPopImage img {
     width: 100%;
