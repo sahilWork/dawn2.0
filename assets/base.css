@@ -2894,7 +2894,9 @@ details-disclosure > details {
   padding: 70px 0;
   overflow-x: hidden;
 }
-
+.slick-slide img {
+    width: 100%;
+}
 
 .my-slider{
   padding: 0 70px;
