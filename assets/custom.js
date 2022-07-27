@@ -35,7 +35,18 @@ $(document).ready(function(){
       },
       dataType: 'json',           
       success: function(data) {
-          console.log(data);
+        var image = data.image;
+        var title = data.title;
+        var price = data.original_price;
+        $.ajax({
+          type: 'GET',
+          url: '/cart.js',
+          dataType: 'json',           
+          success: function(cart) {
+            console.log(cart);
+            var itemCount = cart.count;
+          }
+        });
       }
     });
   });  
