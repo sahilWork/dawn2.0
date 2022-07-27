@@ -3100,7 +3100,9 @@ button.slick-next.slick-arrow:before {
 }
 .buttonPopSection a:hover {
 	background: #BD9D50;
+	transition: .3s;
 }
 .buttonPopSection .cartBtn:hover {
 	background: #222;
+		transition: .3s;
 }
