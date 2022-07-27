@@ -43,8 +43,8 @@ $(document).ready(function(){
           url: '/cart.js',
           dataType: 'json',           
           success: function(cart) {
-            console.log(cart);
-            var itemCount = cart.count;
+            var itemCount = cart.item_count;
+            $('.countNumber').html(itemCount);
           }
         });
       }
