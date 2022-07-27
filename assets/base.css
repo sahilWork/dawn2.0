@@ -3031,7 +3031,6 @@ button.slick-next.slick-arrow:before {
 
 /*** loader & popup css start  ***/
 .popOpen {
-	overflow: hidden;
 	    background: rgba(1, 1, 1, 0.8);
 }
 .popOpen .loaderEffect,
