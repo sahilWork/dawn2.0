@@ -60,4 +60,9 @@ $(document).ready(function(){
     $('.proAddPop').addClass('hide');
     $('body').removeClass('popOpen');
   });
+
+  setTimeout(function() {
+    $('body').removeClass('popOpen');
+    $('.loaderEffect').addClass('hide');
+  });
 });
