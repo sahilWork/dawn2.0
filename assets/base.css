@@ -2933,7 +2933,9 @@ details-disclosure > details {
   color: #000;
   font-size: 26px;
 }
-
+.slick-slide {
+    background: #fff;
+}
 .collection-content {
     display: inline-block;
     width: 100%;
