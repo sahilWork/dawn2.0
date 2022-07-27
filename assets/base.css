@@ -2896,8 +2896,12 @@ details-disclosure > details {
 }
 .slick-slide img {
     width: 100%;
+    height: 220px;
+    object-fit: cover;
 }
-
+.collection-image {
+    width: 100%;
+}
 .my-slider{
   padding: 0 70px;
 }
