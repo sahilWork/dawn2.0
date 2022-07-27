@@ -2909,6 +2909,10 @@ details-disclosure > details {
 .my-slider{
   padding: 0 70px;
 }
+.slick-list {
+    padding-left: 15px;
+    padding-right: 15px;
+}
 .slick-initialized .slick-slide {
     color: #000;
     margin: 0 7px 0 8px;
