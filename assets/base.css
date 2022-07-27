@@ -2901,7 +2901,7 @@ details-disclosure > details {
 }
 .collectionSection {
     background: #f7f7f7;
-    padding: 20px 20px;
+    padding: 20px 0px;
 }
 .collection-image {
     width: 100%;
@@ -2910,8 +2910,8 @@ details-disclosure > details {
   padding: 0 70px;
 }
 .slick-list {
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 .slick-initialized .slick-slide {
     color: #000;
