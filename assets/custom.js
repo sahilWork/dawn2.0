@@ -64,5 +64,5 @@ $(document).ready(function(){
   setTimeout(function() {
     $('body').removeClass('popOpen');
     $('.loaderEffect').addClass('hide');
-  });
+  }, 1000);
 });
