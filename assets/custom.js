@@ -45,6 +45,9 @@ $(document).ready(function(){
           success: function(cart) {
             var itemCount = cart.item_count;
             $('.countNumber').html(itemCount);
+            $('.proPopImage').html('<img src="'+image+'" />');
+            $('.proPopTitle').html(title);
+            $('.priceVlaue').html(price/100);
           }
         });
       }
