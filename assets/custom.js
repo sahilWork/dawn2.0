@@ -25,6 +25,8 @@ $(document).ready(function(){
 
   $('body').on('click', '.optionAdd', function(e){
     e.preventDefault();
+    $('body').addClass('popOpen');
+    $('.loaderEffect').removeClass('hide');
     var id = $(this).attr('varid');
     $.ajax({
       type: 'POST',
@@ -48,6 +50,8 @@ $(document).ready(function(){
             $('.proPopImage').html('<img src="'+image+'" />');
             $('.proPopTitle').html(title);
             $('.priceVlaue').html((price/100).toFixed(2));
+            $('body').removeClass('popOpen');
+            $('.loaderEffect').addClass('hide');
             $('.proAddPop').removeClass('hide');
             $('body').addClass('popOpen');
           }
