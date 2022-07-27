@@ -3017,3 +3017,6 @@ button.slick-next.slick-arrow:before {
     text-align: center;
     padding: 10px;
 }
+.hide {
+  display: none;
+}
