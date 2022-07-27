@@ -49,6 +49,7 @@ $(document).ready(function(){
             $('.proPopTitle').html(title);
             $('.priceVlaue').html((price/100).toFixed(2));
             $('.proAddPop').removeClass('hide');
+            $('body').addClass('popOpen');
           }
         });
       }
@@ -56,6 +57,7 @@ $(document).ready(function(){
   });  
 
   $('body').on('click', '.continueShopping', function() {
-    $('.proAddPop').removeClass('hide');
+    $('.proAddPop').addClass('hide');
+    $('body').removeClass('popOpen');
   });
 });
