@@ -2918,8 +2918,23 @@ details-disclosure > details {
     flex-direction: column;
 }
 
-
-
+.product-button a {
+    background: #000;
+    width: 100%;
+    display: inline-block;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 4px 5px;
+}
+.product-button {
+    width: 100%;
+    display: inline-block;
+    margin-top: 18px;
+}
 .slick-next, .slick-prev{
   z-index: 5;
 }
