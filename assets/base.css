@@ -2926,6 +2926,10 @@ h1.collectionTitle {
     padding: 0;
     margin: 0px 0px 0px -10px;
 }
+.collection-header {
+    display: inline-block;
+    width: 100%;
+}
 .product-button a {
     background: #000;
     width: 100%;
