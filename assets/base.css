@@ -2966,7 +2966,12 @@ button.slick-next.slick-arrow:before {
     color: #000;
 }
 .slick-prev {
-    left: 0px;
+    left: -20px;
+    background: #fff;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    transform: inherit;
 }
 .slick-next:before, .slick-prev:before{
   color: #000;
