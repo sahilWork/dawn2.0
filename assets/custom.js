@@ -35,7 +35,7 @@ $(document).ready(function(){
       },
       dataType: 'json',           
       success: function(data) {
-          window.location.reload();
+          console.log(data);
       }
     });
   });  
