@@ -2922,7 +2922,9 @@ details-disclosure > details {
     flex-direction: column;
 }
 h1.collectionTitle {
-    margin-left: -10px;
+    float: left;
+    padding: 0;
+    margin: 0px 0px 0px -10px;
 }
 .product-button a {
     background: #000;
