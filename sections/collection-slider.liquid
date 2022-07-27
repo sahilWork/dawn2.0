@@ -1,4 +1,7 @@
 {% assign col = collections[section.settings.collection].products %}
+<div class="loaderEffect">
+  <img src="{{ loader.png | asset_img_url }}" />
+</div>
 <div class="collectionSection">
   <div class="collection-header">
   <h1 class="collectionTitle">{{ section.settings.sectionTitle }}</h1>
