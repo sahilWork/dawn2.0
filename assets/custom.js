@@ -47,7 +47,7 @@ $(document).ready(function(){
             $('.countNumber').html(itemCount);
             $('.proPopImage').html('<img src="'+image+'" />');
             $('.proPopTitle').html(title);
-            $('.priceVlaue').html(price/100);
+            $('.priceVlaue').html((price/100).toFixed(2));
           }
         });
       }
