@@ -2,7 +2,7 @@
 <div class="collectionSection">
   <div class="collection-header">
   <h1 class="collectionTitle">{{ section.settings.sectionTitle }}</h1>
-    <a href="{{ col.url }}" class="btnAll">View All</a>
+    <a href="{{ collections[section.settings.collection].url }}" class="btnAll">View All</a>
   </div>
   <div class="collectionList">
     {% for colPro in col %}
