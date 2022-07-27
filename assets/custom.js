@@ -48,9 +48,14 @@ $(document).ready(function(){
             $('.proPopImage').html('<img src="'+image+'" />');
             $('.proPopTitle').html(title);
             $('.priceVlaue').html((price/100).toFixed(2));
+            $('.proAddPop').removeClass('hide');
           }
         });
       }
     });
   });  
+
+  $('body').on('click', '.continueShopping', function() {
+    $('.proAddPop').removeClass('hide');
+  });
 });
