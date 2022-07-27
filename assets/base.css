@@ -2934,7 +2934,7 @@ details-disclosure > details {
     width: 100%;
     display: inline-block;
     margin-top: 12px;
-}
+} 
 .slick-next, .slick-prev{
   z-index: 5;
 }
