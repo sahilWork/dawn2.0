@@ -2,6 +2,7 @@ $(document).ready(function(){
   $('.collectionList').slick({
     slidesToShow: 5,
     slidesToScroll: 1,
+    centerMode: true,
     arrows: true,
     dots: false,
     infinite: true,
