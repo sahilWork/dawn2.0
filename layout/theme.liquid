@@ -220,16 +220,18 @@
 
   <body class="gradient popOpen">
     <div class="proAddPop hide">
-      <div class="proPopSection">
-        <div class="proPopImage"></div> 
-        <div class="proPopContent">
-          <div class="proPopTitle"></div>
-          <div class="proPopPrice">{{ shop.money_format | split: '{{' | first }} <span class="priceVlaue"></span></div>
+      <div class="proContentPop">
+        <div class="proPopSection">
+          <div class="proPopImage"></div> 
+          <div class="proPopContent">
+            <div class="proPopTitle"></div>
+            <div class="proPopPrice">{{ shop.money_format | split: '{{' | first }} <span class="priceVlaue"></span></div>
+          </div>
         </div>
-      </div>
-      <div class="buttonPopSection">
-        <a href="javascript:void(0)" class="continueShopping">Continue Shopping</a>
-        <a href="/cart" class="cartBtn">Go To Cart</a>
+        <div class="buttonPopSection">
+          <a href="javascript:void(0)" class="continueShopping">Continue Shopping</a>
+          <a href="/cart" class="cartBtn">Go To Cart</a>
+        </div>
       </div>
     </div>
     
