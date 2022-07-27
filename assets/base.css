@@ -2976,4 +2976,6 @@ button.slick-next.slick-arrow:before {
     width: 100%;
     text-align: center;
     padding-top: 11px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
