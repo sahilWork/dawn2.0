@@ -3020,3 +3020,10 @@ button.slick-next.slick-arrow:before {
 .hide {
   display: none;
 }
+.loaderEffect {
+    position: absolute;
+    z-index: 9;
+    background: white;
+    width: 50px;
+    height: 50px;
+}
