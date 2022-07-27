@@ -2954,4 +2954,6 @@ details-disclosure > details {
 .collection-content {
     display: inline-block;
     width: 100%;
+    text-align: center;
+    padding-top: 11px;
 }
