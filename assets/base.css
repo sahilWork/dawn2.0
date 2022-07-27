@@ -2902,7 +2902,7 @@ details-disclosure > details {
 .slick-initialized .slick-slide{
   background-color: #b32532;
   color: #FFF;
-  height: 200px;
+  height: auto;
   margin: 0 15px 0 0;
   display: flex;
   align-items: center;
@@ -2923,4 +2923,9 @@ details-disclosure > details {
 .slick-next:before, .slick-prev:before{
   color: #000;
   font-size: 26px;
+}
+
+.collection-content {
+    display: inline-block;
+    width: 100%;
 }
