@@ -3122,6 +3122,9 @@ button.slick-next.slick-arrow:before {
 }
 
   @media screen and (min-width: 480px) {
+	  .proContentPop {
+    margin: 0px 10px;
+}
 .buttonPopSection a {
     font-size: 14px;
 }
