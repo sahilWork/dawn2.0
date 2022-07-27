@@ -46,6 +46,7 @@ $(document).ready(function(){
           dataType: 'json',           
           success: function(cart) {
             var itemCount = cart.item_count;
+            $().append('<div class="cart-count-bubble"><span aria-hidden="true" class="countNumber">'+itemCount+'</span><span class="visually-hidden">'+itemCount+' items</span></div>');
             $('.countNumber').html(itemCount);
             $('.proPopImage').html('<img src="'+image+'" />');
             $('.proPopTitle').html(title);
