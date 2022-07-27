@@ -50,9 +50,7 @@ $(document).ready(function(){
             $('.proPopImage').html('<img src="'+image+'" />');
             $('.proPopTitle').html(title);
             $('.priceVlaue').html((price/100).toFixed(2));
-            $('body').removeClass('popOpen');
             $('.loaderEffect').addClass('hide');
-            $('.proAddPop').removeClass('hide');
             $('body').addClass('popOpen');
           }
         });
