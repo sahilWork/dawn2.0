@@ -2950,7 +2950,6 @@ a.btnAll {
 }
 a.btnAll:hover {
   background:#000;
-    float: right;
   color:#fff;
 }
 .product-button {
