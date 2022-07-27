@@ -15,9 +15,9 @@
           <div class="product-price">{{ colPro.price | money }}</div>
           <div class="product-button">
             {% if colPro.variants.size > 1 %}
-              <a href="{{ colPro.url }}" class="btnPro optionsvar" varid="{{ colPro.variants.first.id }}">Select Options</a>
+              <a href="{{ colPro.url }}" class="btnPro optionsVar">Select Options</a>
             {% else %}
-              <a href="javascript:void(0)" class="btnPro" varid="{{ colPro.variants.first.id }}">Add to Cart</a>
+              <a href="javascript:void(0)" class="btnPro optionAdd" varid="{{ colPro.variants.first.id }}">Add to Cart</a>
             {% endif %}
           </div>
         </div>
