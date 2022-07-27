@@ -3063,7 +3063,7 @@ button.slick-next.slick-arrow:before {
 .proContentPop {
     width: 100%;
     background: #fff;
-    max-width: 600px;
+    max-width: 500px;
     border-top: 5px #000 solid;
 	padding: 20px 20px 20px 20px;
 }
@@ -3082,4 +3082,25 @@ button.slick-next.slick-arrow:before {
 .buttonPopSection {
     width: 100%;
     float: left;
+}
+.buttonPopSection a {
+    background: #222;
+    display: block;
+    width: 50%;
+    float: left;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 0px;
+    border: 5px #fff solid;
+    letter-spacing: 0;
+}
+.buttonPopSection .cartBtn {
+	background: #BD9D50;
+}
+.buttonPopSection a:hover {
+	background: #222;
+}
+.buttonPopSection .cartBtn:hover {
+	background: #BD9D50;
 }
