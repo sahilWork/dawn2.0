@@ -2936,6 +2936,23 @@ h1.collectionTitle {
     font-size: 16px;
     padding: 4px 5px;
 }
+a.btnAll {
+    float: right;
+    margin-top: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 2px solid #000;
+    padding: 7px 10px 10px 10px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 16px;
+    margin-right: -10px;
+}
+a.btnAll:hover {
+  background:#000;
+    float: right;
+  color:#fff;
+}
 .product-button {
     width: 100%;
     display: inline-block;
