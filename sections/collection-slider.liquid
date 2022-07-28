@@ -2,7 +2,7 @@
 <div class="loaderEffect hide">
   <img src="{{ 'loader.png' | asset_url }}" />
 </div>
-<div class="loading-animation collectionSection">
+<div class="collectionSection">
   <div class="page-width">
     <div class="collection-header">
     <h1 class="collectionTitle">{{ section.settings.sectionTitle }}</h1>
@@ -10,7 +10,7 @@
     </div>
     <div class="collectionList">
       {% for colPro in col %}
-        <div class="collection-product">
+        <div class="collection-product loading-animation">
           <div class="collection-image">
             <img src="{{ colPro.images[0] | img_url: '300X300'}}" />
           </div>
