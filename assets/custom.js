@@ -1,6 +1,6 @@
 $(document).ready(function(){
   $('.collectionList').on('init', function () {
-      console.log(45);
+      $('.collectionSection').removeClass('hide');
   });
   $('.collectionList').slick({
     slidesToShow: 5,
