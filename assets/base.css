@@ -3146,6 +3146,9 @@ button.slick-next.slick-arrow:before {
 .loading-animation {
   animation: placeHolderShimmer 3s infinite;
 }
+.collection-product.loading-animation div {
+    visibility: hidden;
+}
  @media screen and (max-width: 480px) {
 	  .proContentPop {
     margin: 0px 10px;
