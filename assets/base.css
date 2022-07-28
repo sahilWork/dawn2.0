@@ -3146,7 +3146,7 @@ button.slick-next.slick-arrow:before {
 .loading-animation {
   animation: placeHolderShimmer 3s infinite;
 }
-.collectionList.loading-animation div {
+.collectionList.loading-animation .collection-product {
     visibility: hidden;
 }
  @media screen and (max-width: 480px) {
