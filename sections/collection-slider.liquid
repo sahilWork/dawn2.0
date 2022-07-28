@@ -8,9 +8,9 @@
     <h1 class="collectionTitle">{{ section.settings.sectionTitle }}</h1>
       <a href="{{ collections[section.settings.collection].url }}" class="btnAll">View All</a>
     </div>
-    <div class="collectionList">
+    <div class="collectionList loading-animation">
       {% for colPro in col %}
-        <div class="collection-product loading-animation">
+        <div class="collection-product">
           <div class="collection-image">
             <img src="{{ colPro.images[0] | img_url: '300X300'}}" />
           </div>
