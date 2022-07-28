@@ -1,6 +1,6 @@
 $(document).ready(function(){
   $('.collectionList').on('init', function () {
-      visibility: 'visible';
+      console.log(45);
   });
   $('.collectionList').slick({
     slidesToShow: 5,
