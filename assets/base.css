@@ -3120,9 +3120,7 @@ button.slick-next.slick-arrow:before {
 	background: #222;
 		transition: .3s;
 }
-.slick-slider .slick-slide{
-    display: none;
-}
+
  @media screen and (max-width: 480px) {
 	  .proContentPop {
     margin: 0px 10px;
