@@ -1,4 +1,7 @@
 $(document).ready(function(){
+  $('.collectionList').on('init', function () {
+      visibility: visible;
+  });
   $('.collectionList').slick({
     slidesToShow: 5,
     slidesToScroll: 1,
